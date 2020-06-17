@@ -1,0 +1,49 @@
+/*
+-fonts to be used :
+  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
+-colors to be used :
+  primary color rgb(194, 194, 194))
+
+*/
+ body{
+     background: rgb(194, 194, 194);
+     text-align: center;
+     font-family: 'Lato', sans-serif;
+     animation-name: change-bg;
+     animation-duration: 4s;
+     animation-iteration-count: 1;
+     animation-timing-function: ease;
+ }
+ a{
+     text-decoration: none;
+     color: steelblue;
+     transition: all 1s ease-in-out;
+     
+ }
+ a:hover {
+     color: rgb(158, 157, 157);
+ }
+ .center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 5px grey;
+    max-width: 100%;
+    height: auto;
+    transition: all 1s ease-in-out;
+ }
+img:hover{
+    transform: scale(1.1);
+}
+
+@keyframes change-bg {
+    0%   {background-color:rgb(112, 112, 112);}
+    25%  {background-color: rgb(158, 158, 158);}
+    50%  {background-color: rgb(186, 186, 186);}
+    100% {background-color: rgb(217, 215, 215);}
+}
+
+.para {
+    text-align: justify;
+}
